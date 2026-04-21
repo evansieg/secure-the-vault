@@ -1,16 +1,16 @@
 let code1;
 code1 = 7 + 3;
-console.log(code1);
-let code2;
-code2 = 90 / 2 - 5;
-console.log(code2);
-let code3;
-code3 = (5 % 2) + 38;
-console.log(code3);
-let message;
-message = "The vault has been secured. The combination is:";
+
+const code2 = 90 / 2 - 5;
+
+const code3 = (5 % 2) + 38;
+
+const message = "The vault has been secured. The combination is:";
+
+const codeA = code1 + "-" + code2 + "-" + code3;
+
+const codeB = `${code1}-${code2}-${code3}`;
+
 console.log(message);
-let codeA = "10-" + "40-" + "39";
 console.log(codeA);
-let codeB = `${code1}-${code2}-${code3}`;
 console.log(codeB);
